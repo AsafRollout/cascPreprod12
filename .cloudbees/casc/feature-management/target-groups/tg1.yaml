@@ -10,4 +10,4 @@ conditions:
   allOf:
     - property:
         name: cp1
-        operator: is-undefined
+        operator: is-true
