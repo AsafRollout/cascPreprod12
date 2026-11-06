@@ -2,13 +2,12 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: f3
-flagType: boolean
+flag: numToString
+flagType: string
 description: ""
 labels:
 
 availableValues:
-  - "true"
-  - "false"
+  - "10"
 
 isPermanent: false
