@@ -15,6 +15,5 @@ conditions:
       - property:
           name: rox.platform
           operator: in-array
-          operands:
-            - "123"
+          operands: []
     flagValue: false
